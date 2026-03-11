@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V4.3.2-red)
+![Version](https://img.shields.io/badge/Version-V5.1.1-red)
 ![Time](https://img.shields.io/badge/Join-20210120-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -80,6 +80,14 @@ HaE目前的规则一共有8个字段，详细的含义如下所示：
 
 ## 最近更新
 
+#### [v5.1.1] - 2026-03-04
+
+** 问题修复 ** 
+ - 修复MarkInfo标签页切换时触发数据重复写入，导致Databoard出现跨Host数据错乱的BUG。
+ ** 贡献者信息**
+ - 感谢@Arg3Sea、Gnihton、强少张参与测试并提供宝贵建议的贡献者！
+
+
 #### [v4.3.2] - 2025-11-25
 
 ** 问题修复 ** 
@@ -114,17 +122,5 @@ HaE目前的规则一共有8个字段，详细的含义如下所示：
 
 **问题修复**  
 - 修复Databoard展示HTTP消息时存在的重复问题。
-
-#### [v4.1] - 2025-03-21
-
-**功能更新**  
-- 优化数据导入逻辑，提高导入速度。  
-- 优化Databoard查询逻辑，提高加载速度。  
-- 优化内置规则，包含用户名、密码、敏感信息等字段内容。  
-- 新增内置规则，包含PDF.js Viewer指纹匹配规则。  
-- 恢复进度条等待功能，让用户可以直面数据加载过程。  
-
-**问题修复**  
-- 修复切换主题之后导致规则新增失灵的问题。
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

@@ -144,6 +144,15 @@ The educational version shares a large amount of code with Tai-e, thus doing the
 
 ## 最近更新
 
+#### [v0.5.1] - 2025-12-31
+
+**新功能**  
+- 添加 命令行参数的检查  
+- 添加性能监控 
+- 指针分析 
+- 副作用分析 
+- 类层级分析等
+
 #### [v0.5.1] - 2024-12-31
 
 **新功能**  

@@ -1,9 +1,9 @@
-## Agentic SOC Platform <https://github.com/FunnyWolf/agentic-soc-platform>
+## agentic-soc-platform.json <https://github.com/FunnyWolf/agentic-soc-platform>
 <!--auto_detail_badge_begin_0b490ffb61b26b45de3ea5d7dd8a582e-->
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/agentic-soc-platform.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.1.0-red)
+![Version](https://img.shields.io/badge/Version-V0.2.0-red)
 ![Time](https://img.shields.io/badge/Join-20251205-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -17,6 +17,13 @@ README
 
 
 ## 最近更新
+
+#### [v0.2.0] - 2026-01-28
+
+** 新功能亮点 **
+ -Case 基于 OCSF Incident Finding 标准进行重构，提供统一的事件调查和响应数据结构。
+- Alert 基于 OCSF Detection Finding 标准进行重构，提供统一的告警数据结构。
+- 新增 Enrichment 和 Ticket 模块，分别用于存储丰富化数据和外部工单数据。
 
 #### [v0.1.0] - 2025-12-03
 

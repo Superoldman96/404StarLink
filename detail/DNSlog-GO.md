@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-lanyi-orange)
 ![GitHub stars](https://img.shields.io/github/stars/lanyi1998/DNSlog-GO.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.3.0-red)
+![Version](https://img.shields.io/badge/Version-V2.3.1-red)
 ![Time](https://img.shields.io/badge/Join-20220316-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -133,6 +133,12 @@ if dns.checkDomain(subDomain):
 
 ## 最近更新
 
+#### [v2.3.1] - 2026-01-21
+
+**修正** : 
+- 增加client pool大小和时间，避免服务器还没有收到dnslog，client就已经开始验证
+
+
 #### [v2.3.0] - 2025-12-29
 
 **feat** : 
@@ -161,10 +167,5 @@ if dns.checkDomain(subDomain):
 
 **修复**  
 - getDnsData_clear api死锁的问题
-
-#### [v1.5.7] - 2025-04-09
-
-**修复**  
-- 修复8.8.8.8无法收到记录的bug
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

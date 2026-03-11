@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-LamentXU123-orange)
 ![GitHub stars](https://img.shields.io/github/stars/LamentXU123/Typhon.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.0.11-red)
+![Version](https://img.shields.io/badge/Version-V1.0.13-red)
 ![Time](https://img.shields.io/badge/Join-20251201-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -402,6 +402,11 @@ Typhon 现已加入 [404星链计划](https://github.com/knownsec/404StarLink)
 
 
 ## 最近更新
+
+#### [v1.0.13] - 2026-02-25
+
+ 实现 webui（包括前端和后端）
+
 
 #### [v1.0.11] - 2025-11-15
 

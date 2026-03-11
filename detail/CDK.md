@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-cdkteam-orange)
 ![GitHub stars](https://img.shields.io/github/stars/cdk-team/CDK.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.5-red)
+![Version](https://img.shields.io/badge/Version-V1.5.6-red)
 ![Time](https://img.shields.io/badge/Join-20210223-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -208,6 +208,14 @@ cdk ps
 
 ## 最近更新
 
+#### [v1.5.6] - 2026-02-23
+
+**更新**  
+- 添加cgroup2_ebpf_bypass容器逃逸漏洞 
+-  添加容器安全隔离检查以评估模块 
+- 修复（eva）：重命名服务发现文件
+
+
 #### [v1.5.5] - 2025-02-23
 
 **更新**  
@@ -245,14 +253,5 @@ cdk ps
 - 支持 linux 环境下的不同容器运行时，如 containerd、runc、docker  
 - 修复shadow-apiserver匿名访问无效的issue，支持新版本的k8s，如 v1.23.1  
 - 添加迭代部分功能的消息提醒
-
-#### [v1.5.0] - 2022-09-25
-
-**更新**  
-- 检查内核漏洞利用，使用 mzet-/linux-exploit-suggester  
-- 支持检查路径中的 setuid 文件  
-- 为功能列表添加增加红色高亮输出  
-- 支持两种新的格式化打印函数  
-- 优化 CDK banner 高亮输出
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

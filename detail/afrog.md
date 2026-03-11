@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.2.8-red)
+![Version](https://img.shields.io/badge/Version-V3.3.9-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -141,6 +141,15 @@ afrog -t https://example.com -ja result.json
 
 ## 最近更新
 
+#### [v3.3.9] - 2026-02-25
+
+**OOB核心升级** 
+ - 更简洁的 PoC 语法 
+ - 更稳健的底层逻辑 
+ - 证据可追溯  
+ - 老 PoC 一键迁移 
+
+
 #### [v3.2.8] - 2025-12-29
 
 **新增** 
@@ -171,12 +180,5 @@ afrog -t https://example.com -ja result.json
 - length 函数，计算字符串或字符数组的长度  
 **更新**  
 - 指定常用 CipherSuites，兼容老加密套件
-
-#### [v3.1.7] - 2025-03-30
-
-**更新**  
-- 修复HTTP响应解析异常问题，兼容更多服务器返回格式，程序运行更稳定！  
-- Banner展示效果全面优化，界面颜值暴涨，交互体验更丝滑～  
-- 新增临时文件自动清理机制，afg文件每10秒智能更新，任务结束即自动清除，省心又安全！
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

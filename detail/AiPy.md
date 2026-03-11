@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-Knownsec-orange)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/aipyapp.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.4.0-red)
+![Version](https://img.shields.io/badge/Version-V0.5.0-red)
 ![Time](https://img.shields.io/badge/Join-20250415-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -120,6 +120,12 @@ Python use - AIPython (Quit with 'exit()')
 
 ## 最近更新
 
+#### [v0.5.0] - 2026-02-18
+
+**软件修复:**
+ - 架构完全重构
+
+
 #### [v0.4.0] - 2025-11-28
 
 **架构重构:**
@@ -182,11 +188,5 @@ Python use - AIPython (Quit with 'exit()')
 - 大幅改善任务拆解、执行逻辑、内置最佳实践方案，执行复杂任务将用时更短、实现方案更可靠。  
 - 任务中Python库安装调整为无需确认方式，任务执行过程全自动完成。  
 - 修正多处缺陷。  
-
-#### [v0.1.27] - 2025-04-30
-
-**问题修复**  
-- 修复界面显示问题  
-- 修复代码重构导致的Bug  
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
